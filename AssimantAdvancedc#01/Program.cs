@@ -61,6 +61,12 @@ namespace AssimantAdvancedc_01
             //Table<string> t1 = new Table<string>();  //=>true(string)
             //Table<int> t2 = new Table<int>();  // =>false(int)
             #endregion
+            #region Question09
+            //new():require that the type has a public parameterless(default constructor)
+            //Factory<Product> factory=new Factory<Product>();
+            //Product p = factory.CreateInstance();
+            //Console.WriteLine(p);
+            #endregion 
         }
     }
 }

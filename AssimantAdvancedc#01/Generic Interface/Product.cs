@@ -9,20 +9,33 @@ namespace AssimantAdvancedc_01.Generic_Interface
     //{
     //    public int Id { get; set; }
 
-    //    public string Name { get; set; }
+    //public string Name { get; set; }
 
-    //    public decimal Price { get; set; }
+    //public decimal Price { get; set; }
 
-    //    public Product(int id, string name, decimal price)
+        //public Product(int id, string name, decimal price)
+        //{
+        //    Id = id;
+        //    Name = name;
+        //        Price = price;
+        //}
+//        public Product()
+//        {
+            
+//        }
+//        public override string ToString()
+//{
+//    return $"[{Id} {Name} - {Price:c}]";
+//}
+//    }
+    #region Question09
+    //public class Factory<T> where T : new()
+    //{
+    //    public T CreateInstance()
     //    {
-    //        Id = id;
-    //        Name = name;
-    //        Price = price;
-    //    }
-    //    public override string ToString()
-    //    {
-    //        return $"[{Id} {Name} - {Price:c}]";
+    //        return new T();
     //    }
     //}
+    #endregion
     #endregion
 }
