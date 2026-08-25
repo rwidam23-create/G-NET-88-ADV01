@@ -28,9 +28,15 @@ namespace AssimantAdvancedc_01
             //Generic Method:A Method can be Genric even if the class is not Generic
             //Container<int> a = new Container<int>(5);
             //Container<int> b = new Container<int>(10);
-            
+
             //Utility.swap(ref a, ref b);
             //Console.WriteLine($"a={a}, b={b}");
+            #endregion
+            #region Question05
+            //int[] numbers = { 1, 2, 3, 4, 5, 6 };
+            //int maxnumber= Utility.FindMax(numbers);
+            //Console.WriteLine(maxnumber);
+
             #endregion
         }
     }
