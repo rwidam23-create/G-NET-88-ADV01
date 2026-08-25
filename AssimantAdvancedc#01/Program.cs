@@ -2,6 +2,7 @@
 using AssimantAdvancedc_01.Generic_Interface;
 using AssimantAdvancedc_01.GenericMethod;
 using AssimantAdvancedc_01.multiple_type_parameters;
+using AssimantAdvancedc_01.struct_Constrain;
 using System;
 
 namespace AssimantAdvancedc_01
@@ -48,6 +49,11 @@ namespace AssimantAdvancedc_01
             //repo.Delete(2);
             //repo.GetAll();
             //repo.GetById(2);
+            #endregion
+            #region Question07
+            //struct constrain:Allow only value type (including nullable value types)
+            //Box<int> box = new Box<int>();  //=>true(int)
+            //Box<string> box1=new Box<string>() //=>false(string)
             #endregion
         }
     }
