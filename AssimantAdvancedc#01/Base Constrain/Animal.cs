@@ -10,7 +10,7 @@ namespace AssimantAdvancedc_01.Base_Constrain
     //    public string Name { get; set; } = string.Empty;
 
     //    public abstract string MakeSound();
-        
+
     //}
     #endregion
 }

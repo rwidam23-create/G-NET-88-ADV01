@@ -73,20 +73,29 @@ namespace AssimantAdvancedc_01
             //string[] names = { "Sara", "Ahmed", "Zeinab" };
             //string maxName = Utility.FindMax(names);   
             //Console.WriteLine(maxName);        
+            #endregion
+            #region Question11
+            //The base class constraint requires the type parameter T to be, or inherit from, a specific class. This lets the generic code safely use members defined on that base class.
+            //ShelterAnimal<Cat> shelter = new ShelterAnimal<Cat>();
+            //ShelterAnimal<Animal> animalShelter = new();
+
+
+
+            //ShelterAnimal<Dog> DogShelter = new();
+
+
+            #endregion
+            #region Question12
+            //Multiple constraints are separated by commas after 'where'. The required order is: class/struct first, then the base class, then interfaces, and 'new()' must always come last.
+            //Shelter<Cat> shelter = new Shelter<Cat>();
+            //Cat c1 = new Cat("Mimi");
+            //Cat c2 = new Cat("Fifi");
+            //shelter.AddAndCompare(c1, c2);
+
+            #endregion
+
+
         }
-        #region Question11
-        //The base class constraint requires the type parameter T to be, or inherit from, a specific class. This lets the generic code safely use members defined on that base class.
-        //ShelterAnimal<Cat> shelter = new ShelterAnimal<Cat>();
-        //ShelterAnimal<Animal> animalShelter = new();
-
-     
-
-        //ShelterAnimal<Dog> DogShelter = new();
-
-        
-        #endregion
-
-        #endregion
     }
 }
 
