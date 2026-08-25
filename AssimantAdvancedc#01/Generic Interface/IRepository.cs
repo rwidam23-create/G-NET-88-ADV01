@@ -13,4 +13,4 @@ namespace AssimantAdvancedc_01.Generic_Interface
     //    void Delete(int id);
     #endregion
     }
-}
+

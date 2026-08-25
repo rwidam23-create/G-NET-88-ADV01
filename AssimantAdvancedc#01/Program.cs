@@ -66,7 +66,15 @@ namespace AssimantAdvancedc_01
             //Factory<Product> factory=new Factory<Product>();
             //Product p = factory.CreateInstance();
             //Console.WriteLine(p);
-            #endregion 
+            #endregion
+            #region Question10
+            //requires the type parameter T to implement a specific interface, guaranteeing that T has the members defined by that interface (e.g. so CompareTo can be safely called).
+            //string[] names = { "Sara", "Ahmed", "Zeinab" };
+            //string maxName = Utility.FindMax(names);   
+            //Console.WriteLine(maxName);        
         }
+
+            #endregion
     }
+}
 }
