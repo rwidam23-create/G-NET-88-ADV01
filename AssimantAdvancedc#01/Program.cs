@@ -1,4 +1,5 @@
-﻿using AssimantAdvancedc_01.Class_Constrain;
+﻿using AssimantAdvancedc_01.Base_Constrain;
+using AssimantAdvancedc_01.Class_Constrain;
 using AssimantAdvancedc_01.Generic_Class;
 using AssimantAdvancedc_01.Generic_Interface;
 using AssimantAdvancedc_01.GenericMethod;
@@ -73,8 +74,19 @@ namespace AssimantAdvancedc_01
             //string maxName = Utility.FindMax(names);   
             //Console.WriteLine(maxName);        
         }
+        #region Question11
+        //The base class constraint requires the type parameter T to be, or inherit from, a specific class. This lets the generic code safely use members defined on that base class.
+        //ShelterAnimal<Cat> shelter = new ShelterAnimal<Cat>();
+        //ShelterAnimal<Animal> animalShelter = new();
 
-            #endregion
+     
+
+        //ShelterAnimal<Dog> DogShelter = new();
+
+        
+        #endregion
+
+        #endregion
     }
 }
-}
+
