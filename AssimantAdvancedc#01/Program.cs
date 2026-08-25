@@ -1,4 +1,5 @@
-﻿using AssimantAdvancedc_01.Generic_Class;
+﻿using AssimantAdvancedc_01.Class_Constrain;
+using AssimantAdvancedc_01.Generic_Class;
 using AssimantAdvancedc_01.Generic_Interface;
 using AssimantAdvancedc_01.GenericMethod;
 using AssimantAdvancedc_01.multiple_type_parameters;
@@ -54,6 +55,11 @@ namespace AssimantAdvancedc_01
             //struct constrain:Allow only value type (including nullable value types)
             //Box<int> box = new Box<int>();  //=>true(int)
             //Box<string> box1=new Box<string>() //=>false(string)
+            #endregion
+            #region Question08
+            //class constrain:Allow only Refrenece Type.
+            //Table<string> t1 = new Table<string>();  //=>true(string)
+            //Table<int> t2 = new Table<int>();  // =>false(int)
             #endregion
         }
     }
