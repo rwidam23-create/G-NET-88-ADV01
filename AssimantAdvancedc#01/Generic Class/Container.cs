@@ -25,7 +25,10 @@ namespace AssimantAdvancedc_01.Generic_Class
     //    {
     //        return _item;
     //    }
-
+    //    public override string ToString()
+    //    {
+    //        return $"{_item}";
+    //    }
     //}
     #endregion
 }
