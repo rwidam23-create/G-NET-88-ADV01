@@ -1,4 +1,5 @@
 ﻿using AssimantAdvancedc_01.Generic_Class;
+using AssimantAdvancedc_01.Generic_Interface;
 using AssimantAdvancedc_01.GenericMethod;
 using AssimantAdvancedc_01.multiple_type_parameters;
 using System;
@@ -37,6 +38,16 @@ namespace AssimantAdvancedc_01
             //int maxnumber= Utility.FindMax(numbers);
             //Console.WriteLine(maxnumber);
 
+            #endregion
+            #region Question06
+            //Generic interface:An interface defines the "shape" of certain operations without specifying the data type; any class that implements it defines the type itself.
+            //IRepository<Product> repo=new ProductRepo();
+            //repo.Add(new Product(1,"Laptop",9000));
+            //repo.Add(new Product(2, "Mouse", 900));
+            //repo.Add(new Product(3, "Keyboard", 250));
+            //repo.Delete(2);
+            //repo.GetAll();
+            //repo.GetById(2);
             #endregion
         }
     }
