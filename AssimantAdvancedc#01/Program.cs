@@ -1,4 +1,5 @@
 ﻿using AssimantAdvancedc_01.Generic_Class;
+using AssimantAdvancedc_01.multiple_type_parameters;
 using System;
 
 namespace AssimantAdvancedc_01
@@ -16,7 +17,11 @@ namespace AssimantAdvancedc_01
             //contain.Add(3);
             //Console.WriteLine(contain.Get(4));
 
-
+            #endregion
+            #region Question03
+            //multiple type parameters:A Generic class can have more than one type parameter
+            //Pair<int, string> pair = new Pair<int, string>(1, "Rowida");
+            //Console.WriteLine($"{pair.Key},{pair.Value}");
             #endregion
         }
     }
